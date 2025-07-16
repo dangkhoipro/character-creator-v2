@@ -1,5 +1,13 @@
 .buttonRow {
+  /* add position relative to keep all visually-hidden (position: absolute) inside the scrolling container
+    to avoid scrollburglar
+  */
+  position: relative;
   white-space: nowrap;
-  padding-bottom: 12px;
   overflow-x: auto;
+  /* some minor whitespace (22px instead of 24px) to have better overflow effect */
+  margin-inline: -22px;
+  margin-bottom: -22px;
+  padding-inline: 22px;
+  padding-block: 22px;
 }

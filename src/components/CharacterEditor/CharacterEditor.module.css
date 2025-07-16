@@ -34,10 +34,9 @@
   --min-w: 200px;
   position: fixed;
   left: 60%;
-  top: 0;
   min-width: var(--min-w);
   width: clamp(var(--min-w), 50vh, 600px);
-  top: var(--top);
+  top: calc(var(--top) - 12px);
 }
 
 .controlColumn {

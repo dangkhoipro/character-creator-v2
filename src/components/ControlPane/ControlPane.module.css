@@ -16,9 +16,7 @@
 .title {
   margin: 0;
   /* Optical centering */
-  /* position: sticky; */
-  /* left: 0; */
-  margin-bottom: 8px;
+  margin-bottom: -4px;
 }
 
 .metadata {
